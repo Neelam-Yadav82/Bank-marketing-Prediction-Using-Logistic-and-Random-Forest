@@ -1,6 +1,6 @@
 ## Bank marketing Prediction Using Logistic Regression and Random-Forest
 ## Tasks to perform
-### Read in the file and get basic information about the data, including numerical summaries.
+#### Read in the file and get basic information about the data, including numerical summaries.
 
     i.Describe the pdays column, make note of the mean, median and minimum values. Anything
       fishy in the values?
@@ -13,7 +13,7 @@
         
     iv.Make a box plot for pdays. Do you see any outliers?
     
-### The final goal is to make a predictive model to predict if the customer will respond positively to the campaign or not. The target variable is “response”.
+#### The final goal is to make a predictive model to predict if the customer will respond positively to the campaign or not. The target variable is “response”.
 
 #### First, perform bi-variate analysis to identify the features that are directly associated with the target variable. You can refer to the notebook we used for the EDA discussion.
 
@@ -35,7 +35,7 @@
     
     iii.Train test split
     
-### Predictive model 1: Logistic regression
+#### Predictive model 1: Logistic regression
     i. Make a predictive model using logistic regression
    
     ii.Use RFE to select top n features in an automated fashion (choose n as you see fit)
@@ -48,7 +48,7 @@
    
     vi.Which features are the most important from your model?
    
-### Predictive model 2: Random Forest
+#### Predictive model 2: Random Forest
 
     i.Make a predictive model using random forest technique
     
@@ -61,7 +61,7 @@
     v.Using the feature importance values from the Random Forest module, identify the most
        important features for the model
 
-### Compare the performance of the Random Forest and the logistic model –
+#### Compare the performance of the Random Forest and the logistic model –
 
     i. Evaluate both models on the test set
   
