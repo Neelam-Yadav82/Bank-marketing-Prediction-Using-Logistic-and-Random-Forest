@@ -31,6 +31,7 @@ If yes, and if you plan to use them – how do you handle the pdays column with 
 previous campaign data is missing? Explain your approach and your decision.
 
 Before the predictive modeling part, make sure to perform –
+
     i.The necessary transformations for the categorical variables and the numeric variables
     
     ii. Handle variables corresponding to the previous campaign
