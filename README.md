@@ -39,33 +39,37 @@ Before the predictive modeling part, make sure to perform –
     iii.Train test split
     
 Predictive model 1: Logistic regression
-   i. Make a predictive model using logistic regression
+    i. Make a predictive model using logistic regression
    
-   ii.Use RFE to select top n features in an automated fashion (choose n as you see fit)
+    ii.Use RFE to select top n features in an automated fashion (choose n as you see fit)
    
-   iii.Using p values and VIF, get rid of the redundant features
+    iii.Using p values and VIF, get rid of the redundant features
    
-   iv.Estimate the model performance using k fold cross validation
+    iv.Estimate the model performance using k fold cross validation
    
-   v. What is the precision, recall, accuracy of your model?
+    v. What is the precision, recall, accuracy of your model?
    
-   vi.Which features are the most important from your model?
+    vi.Which features are the most important from your model?
    
 Predictive model 2: Random Forest
 
-   i.Make a predictive model using random forest technique
-   ii.Use not more than 50 trees, and control the depth of the trees to prevent overfitting
-   iii. Estimate the model performance using k fold cross validation
-   iv.What is the precision, recall, accuracy of your model?
-   v.Using the feature importance values from the Random Forest module, identify the most
+    i.Make a predictive model using random forest technique
+    
+    ii.Use not more than 50 trees, and control the depth of the trees to prevent overfitting
+    
+    iii. Estimate the model performance using k fold cross validation
+    
+    iv.What is the precision, recall, accuracy of your model?
+    
+    v.Using the feature importance values from the Random Forest module, identify the most
        important features for the model
 
 Compare the performance of the Random Forest and the logistic model –
-  i. Evaluate both models on the test set
+    i. Evaluate both models on the test set
   
-  ii. Which metric did you choose and why?
+   ii. Which metric did you choose and why?
   
-  iii. Which model has better performance on the test set?
+   iii. Which model has better performance on the test set?
   
-  iv. Compare the feature importance from the different models – do they agree? Are the top
+   iv. Compare the feature importance from the different models – do they agree? Are the top
        features similar in both models?
