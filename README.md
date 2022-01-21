@@ -1,6 +1,6 @@
 ## Bank marketing Prediction Using Logistic Regression and Random-Forest
 ## Tasks to perform
-Read in the file and get basic information about the data, including numerical summaries.
+### Read in the file and get basic information about the data, including numerical summaries.
 
     i.Describe the pdays column, make note of the mean, median and minimum values. Anything
       fishy in the values?
@@ -13,11 +13,9 @@ Read in the file and get basic information about the data, including numerical s
         
     iv.Make a box plot for pdays. Do you see any outliers?
     
-The final goal is to make a predictive model to predict if the customer will respond positively to the
-campaign or not. The target variable is “response”.
+### The final goal is to make a predictive model to predict if the customer will respond positively to the campaign or not. The target variable is “response”.
 
-First, perform bi-variate analysis to identify the features that are directly associated with the target
-variable. You can refer to the notebook we used for the EDA discussion.
+#### First, perform bi-variate analysis to identify the features that are directly associated with the target variable. You can refer to the notebook we used for the EDA discussion.
 
     i.Convert the response variable to a convenient form
       
@@ -27,10 +25,9 @@ variable. You can refer to the notebook we used for the EDA discussion.
       
     iv.Are pdays and poutcome associated with the target?
       
-If yes, and if you plan to use them – how do you handle the pdays column with a value of -1 where the
-previous campaign data is missing? Explain your approach and your decision.
+#### If yes, and if you plan to use them – how do you handle the pdays column with a value of -1 where the previous campaign data is missing? Explain your approach and your decision.
 
-Before the predictive modeling part, make sure to perform –
+#### Before the predictive modeling part, make sure to perform –
 
     i.The necessary transformations for the categorical variables and the numeric variables
     
@@ -38,7 +35,7 @@ Before the predictive modeling part, make sure to perform –
     
     iii.Train test split
     
-Predictive model 1: Logistic regression
+### Predictive model 1: Logistic regression
     i. Make a predictive model using logistic regression
    
     ii.Use RFE to select top n features in an automated fashion (choose n as you see fit)
@@ -51,7 +48,7 @@ Predictive model 1: Logistic regression
    
     vi.Which features are the most important from your model?
    
-Predictive model 2: Random Forest
+### Predictive model 2: Random Forest
 
     i.Make a predictive model using random forest technique
     
@@ -64,7 +61,8 @@ Predictive model 2: Random Forest
     v.Using the feature importance values from the Random Forest module, identify the most
        important features for the model
 
-Compare the performance of the Random Forest and the logistic model –
+### Compare the performance of the Random Forest and the logistic model –
+
     i. Evaluate both models on the test set
   
     ii. Which metric did you choose and why?
