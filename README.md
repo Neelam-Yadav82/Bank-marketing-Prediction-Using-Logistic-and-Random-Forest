@@ -67,9 +67,9 @@ Predictive model 2: Random Forest
 Compare the performance of the Random Forest and the logistic model –
     i. Evaluate both models on the test set
   
-   ii. Which metric did you choose and why?
+    ii. Which metric did you choose and why?
   
-   iii. Which model has better performance on the test set?
+    iii. Which model has better performance on the test set?
   
-   iv. Compare the feature importance from the different models – do they agree? Are the top
+    iv. Compare the feature importance from the different models – do they agree? Are the top
        features similar in both models?
